@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+   <script>function loaded (el){el.classList.add('loaded')}</script>
+   <link rel="stylesheet" href="header.css">
+</head>
+
+<body onload="loaded(document.body)">
+    <nav>
+        <div class="header">
+            <table>
+                <tr>
+                    <td rowspan="2" style="vertical-align: center; padding-right: 40px; padding-left: 80px;"><img
+                            src="https://upload.wikimedia.org/wikipedia/hi/7/7b/Indian_Railways_logo.png" width="100px">
+                    </td>
+                    <td class="headtd" style="vertical-align: top;">
+                        <ul class="navList">
+                            <li><a href="#" class="highblue">REGISTER</a></li>
+                            <!-- <li><a href="#" class="nav-link">AGENT LOGIN</a></li> -->
+                            <li><select id="header" name="class" class="nav-link">
+                                <option value="all">AGENT LOGIN</option>
+                    <option value="all" id="opt">OTP Login</option>
+                    <option value="all" id="opt">DC Login</option>
+                            </select></li>
+                            <li><a href="#" class="nav-link">CONTACT US</a></li>
+                            <li><a href="#" class="nav-link" style="color:red"><b>DAILY DEALS</b></a></li>
+                            <li><a href="#" class="highgrey"><b>ALERTS</b></a></li>
+                            <li><a href="#" class="nav-link" id="Date" style="color:black"><b>05 March 2024
+                                    </b></a></li>
+                            <li><a href="#" class="nav-link" style="color:black"><b>
+                                        <ul class="clock">
+                                            <li id="hours">05</li>
+                                            <li id="point">:</li>
+                                            <li id="min">20</li>
+                                            <li id="point">:</li>
+                                            <li id="sec">30</li>
+                                        </ul>
+                                    </b></a></li>
+                        </ul>
+                    </td>
+                    <td rowspan="2" style="vertical-align: center; padding-left: 30px;"><img
+                            src="https://logos-world.net/wp-content/uploads/2020/11/IRCTC-Logo.png" width="200px"></td>
+                </tr>
+                <tr>
+                    <td class="headtd" style="vertical-align: top;">
+                        <ul class="navList">
+                            <li><a href="#" class="highblue">IRCTC EXCLUSIVES</a></li>
+                            <li><div class="dropdown show">
+                                <a  class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    TRAINS
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Book Ticket</a>
+                                    <a class="dropdown-item" href="#">Foreign Tourist Booking</a>
+                                    <a class="dropdown-item" href="#">Connecting Journey Booking</a>
+                                    <a class="dropdown-item" href="#">IRCTC TRAINS</a>
+                                    <a class="dropdown-item" href="#">Cancel Ticket</a>
+                                    <a class="dropdown-item" href="#">PNR Enquiry</a>
+                                </div>
+                            </div>
+                    
+                              </div>
+                              </li> <!-- <a href="#" class="nav-link">-->
+                            <!-- <li><select id="header" name="class" class="nav-link">
+                                <option value="all">TRAINS</option>
+                    <option value="all" id="opt">Book Now</option>
+                    <option value="all" id="opt">Cancellation</option>
+                    <option value="all" id="opt">Tatkal</option>
+                    <option value="all" id="opt">Tracking</option>
+                    <option value="all" id="opt">Enquiry</option>
+                            </select></li> -->
+                            <li><a href="https://www.bus.irctc.co.in/home" class="nav-link">BUSES</a></li>
+                            <li><a href="https://www.air.irctc.co.in/" class="nav-link">FLIGHTS</a></li>
+                            <li><a href="https://www.hotels.irctc.co.in/hotels" class="nav-link">HOTELS</a></li>
+                            <li><div class="dropdown show">
+                                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    HOLIDAYS
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="https://www.irctctourism.com/">Tourist Trains</a>
+                                    <a class="dropdown-item" href="https://www.irctctourism.com/tourpacakage_search?searchKey=&tagType=&travelType=Domestic&sector=All">Tour Packages</a>
+                                    <a class="dropdown-item" href="https://www.irctctourism.com/accommodation">Stays</a>
+                    
+                                </div>
+                            </div></li>
+                            <!-- <li><select id="header" name="class" class="nav-link">
+                                <option value="all">HOLIDAYS</option>
+                    <option value="all" id="opt">Tourist Trains</option>
+                    <option value="all" id="opt">Tour Packages</option>
+                    <option value="all" id="opt">Stays</option>
+                            </select></li> -->
+                            <li><div class="dropdown show">
+                                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    LOYALTY
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="https://contents.irctc.co.in/en/AboutLoyalty.pdf">About IRCTC Loyalatly program</a>
+                                    <a class="dropdown-item" href="https://contents.irctc.co.in/en/AboutSBICobrandCard.pdf">IRCTC SBI Credit Card</a>
+                                    <a class="dropdown-item" href="https://contents.irctc.co.in/en/AboutBOBCobrandCard.pdf">IRCTC BOB Credit Card</a>
+                                    <a class="dropdown-item" href="https://contents.irctc.co.in/en/About_IRCTC_HDFC_CobrandCard.pdf">IRCTC HDFC Credit Card</a>
+                        
+                                </div>
+                            </div>
+                            <!-- <li><select id="header" name="class" class="nav-link">
+                                <option value="all">LOYALTY</option>
+                    <option value="all" id="opt">IRCTC Credit Cards</option>
+                    <option value="all" id="opt">Loyalty Program</option>
+                            </select></li> -->
+                            <li><div class="dropdown show">
+                                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    MEALS
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="https://www.ecatering.irctc.co.in/">Order Food-E-Catering</a>
+                                    <a class="dropdown-item" href="https://menurates.irctc.co.in/">Cooked Food Menu</a>
+                
+                                </div>
+                            </div></li>
+                            <!-- <li><select id="header" name="class" class="nav-link">
+                                <option value="all">MEALS</option>
+                    <option value="all" id="opt">E-Catering</option>
+                    <option value="all" id="opt">Order Food</option>
+                            </select></li> -->
+                            <li><div class="dropdown show">
+                                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    PROMOTIONS
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Advertise with us</a>
+                                    <a class="dropdown-item" href="https://play.google.com/store/apps/details?id=cris.org.in.prs.ima&hl=en">IRCTC Rail Connect App</a>
+                                    <a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.irctc.tourism_new&pli=1">IRCTC Tourism App</a>
+                                    <a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.irctc.air&hl=en">IRCTC Air App</a>
+                                    <a class="dropdown-item" href="https://www.nrmindia.org/">National Rail Museum</a>
+                                    <a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.cris.utsmobile&hl=en">UTS TICKET APP</a>
+                                </div>
+                            </div></li>
+                            <!-- <li><div class="dropdown show">
+                                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    MORE
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">ChatBot as a services(CaaS)</a>
+                                    <a class="dropdown-item" href="#">Link Your Aadhaar</a>
+                                    <a class="dropdown-item" href="#">Counter Ticket Boarding Point Change</a>
+                                    <a class="dropdown-item" href="#">FORGOT ACCOUNT DETAILS?</a>
+                                    <a class="dropdown-item" href="#">AT STATIONS</a>
+                                    <a class="dropdown-item" href="#">PNR Enquiry</a>
+                                </div>
+                            </div></li> -->
+                            <!-- <li><select id="header" name="class" class="nav-link">
+                                <option value="all">MORE</option>
+                    <option value="all" id="opt">CaaS</option>
+                    <option value="all" id="opt">Link AADHAAR</option>
+                    <option value="all" id="opt">Link AADHAAR</option>
+                    <option value="all" id="opt">Cancellation</option>
+                    <option value="all" id="opt">Forgot details</option>
+                            </select></li> -->
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </nav>
+    <div class="pic">
+        <video autoplay muted loop>
+            <source src="trainvid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="booking-form">
+            <div class="Main-Buttons">
+                <button type="button" onclick="location.href='pnr.html'">
+                    <i class="fa-regular fa-clipboard"></i>
+                    PNR Status
+                </button>
+                <button type="button" onclick="location.href='vacancy.html'">
+                    <i class="fa-solid fa-book"></i>
+                    CHARTS / VACANCY
+                </button>
+            </div>
+            <div class="heading">
+                <img src="https://amritmahotsav.nic.in/writereaddata/portal/images/logo-poster-1.jpg"
+                    alt="Poster-logo-1" style="width: 33%;">
+                <h2>BOOK TICKET</h2>
+                <img src="https://basix.in//stadmin/uploads/images//G-2.png" alt="Poster-logo-2" style="width: 33%;">
+            </div>
+            <div class="form-fields">
+                <div class="form-feild">
+                    <i class="fa-solid fa-location-arrow"></i><input type="text" id="from" name="from"
+                        placeholder="From">
+                </div>
+                <div class="form-feild">
+                    <i class="fa-regular fa-calendar-days"></i><input type="date" id="date" name="date"
+                        placeholder="Date">
+                </div>
+                <div class="form-feild">
+                    <i class="fa-solid fa-location-dot"></i><input type="text" id="to" name="to" placeholder="To">
+                </div>
+                <div class="form-feild">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <select id="class" name="class">
+                        <option value="all">All Classes</option>
+            <option value="all">AC Chair Car</option>
+            <option value="all">Executive Class</option>
+            <option value="all">AC Sleeper</option>
+            <option value="all">AC 3-Tier</option>
+            <option value="all">AC 2-Tier</option>
+            <option value="all">AC 1-Tier</option>
+                    </select>
+                </div>
+                <div class="form-feild">
+                    <i class="fa-solid fa-table-cells-large"></i>
+                    <select id="general" class="general">
+                        <option value="all">GENERAL</option>
+                        <option value="all">LADIES</option>
+                        <option value="all">TATKAL</option>
+                    </select>
+                </div>
+            </div>
+            <div class="concessions">
+                <div class="concession-types">
+                    <input type="checkbox" id="Disablity" name="Disablity">
+                    <label for="concession">Person with Disablity Concession</label>
+                </div>
+                <div class="concession-types">
+                    <input type="checkbox" id="Flexible_Date" name="Flexible_Date">
+                    <label for="concession">Flexible with Date</label>
+                </div>
+                <div class="concession-types">
+                    <input type="checkbox" id="Berth_avaliable" name="Berth_avaliable">
+                    <label for="concession">Train with avaliable Berth</label>
+                </div>
+                <div class="concession-types">
+                    <input type="checkbox" id="Railway_pass" name="Railway_pass">
+                    <label for="concession">Railway Pass Concession</label>
+                </div>
+            </div>
+            <div class="form-buttons">
+                <button class="btncol tick" type="submit" style="background-color: orange;">Search</button>
+                <button class="btncol" type="submit" style="background-color: green;">Try Booking in Ask DISHA 2.0</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="ticket">
+        <table border="0">
+            <button class="cross">×</button>
+            <tr>
+                <td id="h">S.no</td>
+                <td id="h">Train No</td>
+                <td id="h">Train Name</td>
+                <td id="h">Time</td>
+                <td id="h">Select</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>12345</td>
+                <td>Train 1</td>
+                <td>12:00</td>
+                <td><input type="radio" name="train" value="12345"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>12346</td>
+                <td>Train 2</td>
+                <td>12:30</td>
+                <td><input type="radio" name="train" value="12346"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>12347</td>
+                <td>Train 3</td>
+                <td>01:00</td>
+                <td><input type="radio" name="train" value="12347"></td>
+            </tr>
+        </table>
+        <a href="payment.html"><button class="btncol" type="submit">Book</button></a>
+    </div>
+</div>
+
+    <br>
+    <br>
+    <h1 align="center">HOLIDAYS</h1>
+    
+    <div class="container2">
+        <div class="card">
+            <img src="https://cities2explore.com/wp-content/uploads/2023/04/Maharajas-Express-Luxury-Train-Food-Facilities.jpg" class="cardimg" alt="Maharajas Express">
+            <div class="cardbody">
+                <h1 class="cardtitle">Maharajas Express</h1>
+                <p class="cardinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+                <a href="https://www.the-maharajas.com/"><button class="cardbtn">explore</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://worldstrides.com/wp-content/uploads/2015/07/0001_SG-Now.jpg" class="cardimg" alt="Maharajas Express">
+            <div class="cardbody">
+                <h1 class="cardtitle">Special Packages</h1>
+                <p class="cardinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+                <a href="https://www.irctctourism.com/"><button class="cardbtn">explore</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy-nxfz4ue3bKVK1aZB6oVu07uSbxTWHKayA&usqp=CAU" class="cardimg" alt="Maharajas Express">
+            <div class="cardbody">
+                <h1 class="cardtitle">Domestic Packages</h1>
+                <p class="cardinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+                <a href="https://www.irctctourism.com/"><button class="cardbtn">explore</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://i0.wp.com/northeastrising.in/wp-content/uploads/2022/06/1600x960_1290497-train-e1654838674738.jpg?fit=667%2C400&ssl=1" class="cardimg" alt="Maharajas Express">
+            <div class="cardbody">
+                <h1 class="cardtitle">Bharat Gaurav Tourist Train</h1>
+                <p class="cardinfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    
+                <a href="https://www.irctctourism.com/bharatgaurav"><button class="cardbtn">explore</button></a>
+            </div>
+        </div>
+    
+        </div>
+        <br>
+
+
+    <div>
+        <h1 style="text-align:center; ">Have you not found the right one?</h1>
+        <h1 style="text-align:center; ">Find a service suitable for you here.</h1>
+        <table align="center" WIDTH="96%" style="text-align:center; "><br>
+            <tr>
+                <td></td>
+                <td class="icons"><a href="https://www.air.irctc.co.in"><img width="100px" height="100px" style="border-radius: 100%; border:solid 2px black" src="data:image/png;base64,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"></a></td>
+                <td class="icons"><a href="https://www.hotels.irctc.co.in/hotels"><img width="100px" height="100px" style="border-radius: 100%; border:solid 2px black"  src="https://uxwing.com/wp-content/themes/uxwing/download/location-travel-map/hotel-icon.png" ></a></td>
+                <td class="icons"><a href="https://raildrishti.indianrailways.gov.in/raildrishti/raildrishtiv3/"><img width="100px" height="100px" style="border-radius: 100%; border:solid 2px black"  src="https://static.thenounproject.com/png/161182-200.png"></a></td>
+                <td class="icons"><a href="https://www.ecatering.irctc.co.in/"><img width="100px" height="100px" style="border-radius: 100%; border:solid 2px black"  src="data:image/png;base64,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"></a></td>
+                <td class="icons"><a href="https://www.bus.irctc.co.in/home"><img width="100px" height="100px" style="border-radius: 100%; border:solid 2px black"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8AAABDQ0P8/PwEBATV1dUVFRUbGxvg4OC9vb0hISHn5+f4+Pjs7OwmJiaTk5PQ0NB3d3dlZWU+Pj7y8vJwcHDKyspZWVnCwsJgYGBSUlJGRkYvLy8TExOHh4eRkZGrq6t/f38sLCy0tLScnJw1NTVMTEykpKSamppdDw4UAAAIgUlEQVR4nO2dibKiOhCGiQEFBA/I6r4g6vs/4SWELYgCGghTt7+q8Tgs6fwkZGlIK0kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPyb4IZvr/97v+fd+VME4/yj3FQ/pOX4yVLJZZ5jjN/kvdyBG06bImxJYMMwXNckLN+R7nXd5EhcSWPKGiXJVf3ofDsdL7a33gTb+27mOHEc76/XFcv1uk+2O85sd98Gm7VnX46n2znyVVe0hCrp9aYXfKmED+9+QDw43L1HqCwzG28r+TgKiXXD1Y6Bw4iT0w+Z/m1FJoei2tEHJzhqriG4WSXWref2RVv6p5s6VmUlBcr2aUlCOw/z4TDKZBlV/j9fzA/zdg7JccypMqM0fpjiBJ6d16uelwhCltId66WWVlJ2ziLEJfefu/5Y7/56pff3Ma21O34XkjQwwcdMcVWIAhFNzrqlLeGpUEbrgVR8IGprLfkqRNFAOt7i3iut3/AKZXQfe6wTtlxzPm1plXBkhaePuaE1eKHPF12Y6wvUPkI4jazw3iqw75im7YT7yArnH2tVPi7trE8uznqTnozmIytsueT9CrDDOcnO0RX+IuYr2QIVFtOkg76fBWv79DxHWhhaSWOqdiFpSq0w1KLz82Svg9lepzMxWWbnXwIVpp/B6RwqLo+hFXaV8HzasDMMkQoTZhclmavyxXCty4yxwtlAG9Vb5UyHG7j4+B3quXDP8kgKMXWW0Nwb5lJVl2ULT4ZTw4z7MR0c0nsSIWLWNLI9mKv/hqRkkA/XetibrRPvr/vy0qrDTd2ShNXSUGI1drYb+2GRa4oNjm5HTJPy7UVDW76XBvOFpaUUN/RHC9tPd/OrO8SSFeR9Q15rqOnde582F7s7hFiTVG9g8byyJCUf1a+lTP/thivDXKHcaNvn6xwP2dRROVSe8TPSyKxqjFHKcTqV1HemZ5pfHaewNYrC1Jrj7OfVbMx43odMET5Vo9IfjqQQkf7QUJ9MIfITyMx3D+k2AWWYdpDVhwcnbmWIsV34tGW0StMt7omx7sNEIamVqzQPdJvNsTGt+n71dJOQWpqgV3Ky5teUYm+SCj2OnYU9SYU2RzOXSSq8cDRzrDTSU1EooyNHM89JluGTo5nHJBU+OJqJJqmQ58OacJIKeT7JsOQJKpQtflbwspjdy4IVrspWfbHkOKbB+1LhKt00AYV7rjPvyjszohUWbLnaOU5QIccOP6kMWllLr+k2UQqvZS3VuPpp1fKtrGsxPxxfIU4U0gud5EflascIims3CYVJbgKOT0qIoufkyvAp8aylWDJR7j6YgMI0JybfpyVY8lDmLtGFKtRRlg+P++MgM3/7gjbSYhSW3dZ9gFcyl0fP9jzvRh8WilLo3pI82N5xyd8SZr+IUljLBk8Muk7AwIIV4jwj/E2liymKB03iFOIsJ0MjSuF4gEJugMLBAIXcAIWDAQq5AQoHAxRyAxQOxv9I4W5gQzuhConLK3W9DfaOcOpcy/yYg9h4T3Fl0VLCxkAKk3n8EgktQ1KMaDOAP6HA2JTPKQY000QhEKGNO1gtNTeofKV0EBvvye7D1LqjDWREcypWhK4oQbpm8mlucPnX1HTWCIfk+1Aaps/dnItisEFmvhRMA6QYysWpx53gk/HOMAppe764RAqXdTNKdFmgTN8UFKLKWspDHDxC1fy2dTVM1b8F8aGerPAyLD8pzuZ405R+a69dRbsdNw76kO5ASt6BOjDfecdH5PuWoi5NlxkWYMM1l6pi+X70OHq7eXtik1SYc9CvMQ0ltFkTNjT4UHzVe0XsmabCLktouy6znabCmoTKvdWyevvfUNhjtfpUFcpyrUXvGhnqs1o2SVno7IkOSz3bm60Qb1azJF2nsCKwlp7T/7vaKa7k5lfiU0hfRTiX20Qp1Is1pobvvSwy/YqF55NREX3aWw6/RSm8Z8uO09GoeuEg8KLma6tJomWIEVEKa742lyyvqY+ZO0DH78k5dm20J97XxipMCtKa9Qi3x0hMTplZ9RXMk1KYx638+6bbSM/4y162mKxC6v8zJH/Rv1FNjl/4kvESmWFSCmkszLSm6l8o1K28BKuzEPEKm9fjK/37RVmpJ4Lz9fjiFBIZMalZr36LZ++29HWdFokcSmIqIMG+NrNBIGZW2XSTaL36d3D65q7IMkwv73bZ5HtS+oajPbxUUpLqcivW5037BKdphRUPhZIUOqjseYaWVIPJnf5U6q/sfq2wqA6m8mRdwiOqI1RNk6gVzvp4tlQ3jVxtGK76ObZpE2s1O9d1Vet8XDv1IHUCFVYzMl8s5of+HorMqXEgpzemK1JhEXSkOt2XZbmnQpk9vSGWiWiF7Le6e6ODwuoZTd/GVhigvqX0C8RWMLLC88tjhWEV5t6S8TCd9nxxxRk9qrc/skJ/bIEYa+254ogm4ucD1GDo0J6UxEbAdzVlNwyyBikeQWAyQSNrrYZ8p6WR7IcfopbA7BwIIkPCmGNcr84Ss6l91J7Hn4gqtsYVmLlkBm9wNJz51IX9yMXgCkUJa1Fop8/ow1BLCUPf9y2rDNKefPfZ3Zai2o0pTVVhv6D6lObQ+lNVeHp1TzEbmvY2B7KfsMJ0b5fmIT9yigpJG641PqNoKMO2pBoUkpS1AeOjdsrYG4V/vRt33HAfZgoHyXl3osax6TeRVY4N6cjj/zYJCw3W3FCI0Re19GV0lKY7YKjpLtkiH00NhP3NONlo6hBPhR2BmI/LZufEq5W+uu7jXWA/m9zXXVCedrCL99ckpVXs7DYXkT/XVZLGM3eL3zg0f/vFm2pCPGOS/0j+045ZUIJfUioCG0iTklfJD/4l4EE9GTwNkZgpNvxTIfJMCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEfwHkilvYtQDwDEAAAAASUVORK5CYII="></a></td>
+            </tr>
+            <tr>
+                <TD></TD>
+                <td>FLIGHTS</td>
+                <TD>HOTELS</TD>
+                <TD>RAIL DRISHTI</TD>
+                <TD>E-CATERING</TD>
+                <TD>BUS</TD>
+            </tr >
+            <tr>
+                <td><br><br></td>
+            </tr>
+            <tr >
+            <td></td>
+                <td class="icons"><a href="https://www.irctctourism.com/tourpacakage_search?searchKey=&tagType=&travelType=&category="><img width="100px" height="100px" style="border-radius: 100%; border:solid 2px black" src="https://static.thenounproject.com/png/188668-200.png"></a></td>
+                <td class="icons"><a href="https://www.irctctourism.com/bharatgaurav"><img width="100px" height="100px" style="border-radius: 100%; border:solid 2px black"  src="data:image/jpeg;base64,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" ></a></td>
+                <td class="icons"><a href="https://www.irctctourism.com/gallery/"><img width="100px" height="100px" style="border-radius: 100%; border:solid 2px black"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8AAAD4+Pg7Ozvn5+ezs7N+fn5ISEj09PT39/ecnJxwcHDc3NzS0tKurq7V1dXFxcUpKSmnp6doaGgZGRk0NDTt7e3Gxsbk5OTNzc29vb2KiooiIiJQUFCbm5tCQkJYWFiGhoZfX18dHR0ODg52dnaSkpImJiaIiIhl3fH3AAAD60lEQVR4nO3b63aiMBQFYEK9oDJa73fFatt5/yccyICGkAAqcELW/n50ecHV7Iom55A6DgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANjHox5A3b5+h9RDqNeOMbaiHkStumHCDvUgaoWE7bTb+/fb6YS7/YZiQFWbhKH+JHdSCYeMXWnGVK01EyJuGTskM+IwesKlGlaVRlGSSXxnNkrC8oBjqkFVKxUxYVNAx5mHYY7phzyrAvKIPX5jPZ51+Tere7AqoOOMZ+EPb8+4Qze80zltqQdVucmCJY5WfIXKfCY4U4+mBu5STBh/LK0yY2lWrNdSPqSEP9QDqoR76kX2Yc07kALy+fEPf7rXpR7n677jNP3/6++Upet0kttr6oG+bJ6kCd+uTMLB49u1vW/iJuhz4dy+khOG76tzOkfPnr+px1mNhZTQvuniR0po35pNOk0D6vHUYJdKaGXTdCwEtG9F40cl/qQf5xsNwtXA1qq3ccgYv1wxOc2D0Zg32wKhA9d+w3j+E/AuhjURedNpJz34bVHEVFdtMk4+fsoOnPE8RXdiIgbchOV9ckwUsV09b+8SrsyWM/nhtRAw3dWPFuZtath046ng6ktP/Cx3qYMeV2YuU/nTabL9Yzr/1B/V4qtrQsC8ira9CaU+k3yi3rU24VYqjaa6PSVtTbg6SAnZl+ZI78ZGjQ6tIl9yQMYyk0bMbeM7mGn2Wlcf+aqAbEo9rApNlQmZJR0059H2zShYr6w2LflI7nQB2S0vgR8tSvs5qx9jZDq9gkD/smQRu29qnK875iRkJ92rHk0p4xvDp7yA2gJXXAJp/wpmkFdrsquy/OukjjG6gPI0E8XDXPWy9Jl9M7mrOCoKqLxwJl/BCJoednljZSZJZvWWPbON3fm9KRMws69EdWab2nFbZoeqIk15qjN7QROgyKVcQKlt01UeYmTNuC4bkC2EL8uO5hgDr+SvbqUTigW/9sw2r5xUlPV694L/oj3kmPfLKAyfCXjvvX3mHGLYHqnM/p8CS756W13zjjFq25Arb1IrxAv+/DP7YNJ/tfWeDcjX18qGlUC5hqWhL+tzeOqGlciYfd95Zb1e/1x8jClTRomhvsiQDqRc/FTJiJ5GUVn/HgMK/uKy/i0L+oK/RFn/loA6YKmy/i3EBX+5sv49tLuInl6tveCXcgPKpYGApAV/XvFTJbKC32soIN0G4qCxhET/2fZkWf8WkotuxcVPlQgK/kG9qzUZwertb6MBKfY51L0elek2VdXHDz6adKS4WDNwmzMgyAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABa/wAbiCl2kWJ7qwAAAABJRU5ErkJggg=="></a></td>
+                <td class="icons"><a href="https://www.ftr.irctc.co.in/ftr/"><img width="100px" height="100px" style="border-radius: 100%; border:solid 2px black"  src="data:image/png;base64,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"></a></td>
+                <td class="icons"><a href="https://www.irctctourism.com/gallery/"><img width="100px" height="100px" style="border-radius: 100%; border:solid 2px black"  src="data:image/png;base64,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"></a></td>
+            </tr>
+            <tr>
+                <TD></TD>
+                <td>HOLIDAY PACKAGES</td>
+                <TD>TOURIST TRAIN</TD>
+                <TD>HILL RAILWAYS</TD>
+                <TD>CHARTER TRAIN</TD>
+                <TD>GALLERY</TD>
+            </tr>
+        </table>
+    </div>
+\
+    
+    <div class="footer">
+        <br>
+
+        <footer>
+
+            <div class="content">
+                <div class="top">
+                    <!-- <i class="fab fa-slack"></i> -->
+                    <span class="logo_name" > Connect with us on our socials </span>
+
+                </div>
+                <div class="media-icons">
+
+                    <a href="https://m.facebook.com/IRCTCofficial/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/irctc.official?igsh=eDFnNmd2NWQ1bHBo"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-tumblr"></i></a>
+                    <a href="https://www.whatsapp.com/channel/0029Va4wpCW84OmKdPNQi41P"><i class="fa-brands fa-whatsapp"></i></a>
+
+                </div>
+            </div>
+            <div class="link-boxes">
+                <ul class="box">
+                    <a class="btn btn-secondary dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="background-color: #140B5C; border-color: #140B5C;">
+                        IRCTC
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #140B5C;">
+                        <li><a class="dropdown item" href="https://contents.irctc.co.in/en/IRCTC_Train_Salient_Features.pdf">Salient Features </a> </li><br>
+                        <li><a class="dropdown item" href="https://contents.irctc.co.in/en/CancellationRulesforIRCTCTrain.pdf"> Ticket Cancellation Rules</a></li><br>
+                        <li><a class="dropdown item" href="https://contents.irctc.co.in/en/Travel_Insurance_Claim_Process_for_IRCTC_TejasExp.pdf"> Travel Insurance Claim Process</a></li><br>
+                        <li><a class="dropdown item" href="https://contents.irctc.co.in/en/IRCTC_Trains_FT_TnC.pdf">Foreign Tourist T&C</a></li><br>
+                        <li><a class="dropdown item" href="https://contents.irctc.co.in/en/IRCTC_Train_GroupBooking.pdf"> Group Booking T&C</a></li><br>
+                    </ul><br>
+                    <a class="btn btn-secondary dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="background-color: #140B5C; border-color: #140B5C;">
+                        General Information
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #140B5C;">
+                        <li><a class="dropdown item" href="">More info</a></li><br>
+                        <li><a class="dropdown item" href="">FAQs </a></li><br>
+                        <li><a class="dropdown item" href=""> Terms & Conditions</a></li><br>
+                        <li><a class="dropdown item" href=""> Scheme for issue of waitlisted E-tickets</a></li><br>
+                        <li><a class="dropdown item" href="">Protect against fraudulent emails </a></li><br>
+                        <li><a class="dropdown item" href="">General Guideline for SUVIDHA trains </a></li><br>
+                        <li><a class="dropdown item" href=""> Current booking Guidelines</a></li><br>
+                        <li><a class="dropdown item" href="">Forgo Senior Citizen Concession-FAQ </a></li><br>
+                        <li><a class="dropdown item" href=""> Guidelines for Boarding Station change</a></li><br>
+                        <li><a class="dropdown item" href="">Guideline for PASS Booking </a></li><br>
+                    </ul><br>
+                    <a class="btn btn-secondary dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="background-color: #140B5C; border-color: #140B5C;">
+                        Important Information
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #140B5C;">
+                        <li><a class="dropdown item" href=""> Bank Transaction Charges</a></li><br>
+                        <li><a class="dropdown item" href="">Women Sr. Citizen Concession</a></li><br>
+                        <li><a class="dropdown item" href="">VIKALP Scheme </a></li><br>
+                        <li><a class="dropdown item" href="">Travel Insurance (Incl. of GST) </a></li><br>
+                        <li><a class="dropdown item" href=""> </a></li><br>
+                    </ul><br>
+                    <a class="btn btn-secondary dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="background-color: #140B5C; border-color: #140B5C;">
+                        For Newly Migrated Agents
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #140B5C;">
+                        <li><a class="dropdown item" href="">Login Manual - from old site to new site </a></li><br>
+                        <li><a class="dropdown item" href=""> Operating Manual for new e-ticketing website</a></li><br>
+                        <li><a class="dropdown item" href=""> </a>Operating Manual for Agent Interface</li><br>
+                        <li><a class="dropdown item" href=""> </a>Application</li><br>
+
+                    </ul><br>
+                    <a class="btn btn-secondary dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="background-color: #140B5C; border-color: #140B5C;">
+                        IRCTC Loyalty Programe
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #140B5C;">
+                        <li><a class="dropdown item" href="">IRCTC SBI Credit Card </a></li><br>
+                        <li><a class="dropdown item" href=""> About IRCTC Loyalty Scheme</a></li><br>
+                        <li><a class="dropdown item" href=""> </a>Loyalty Account Linking</li><br>
+                        <li><a class="dropdown item" href=""> </a>Set Transaction Password</li><br>
+                        <li><a class="dropdown item" href=""> </a>Accrual of Points</li><br>
+                        <li><a class="dropdown item" href=""> </a>Redemption of points</li><br>
+                        <li><a class="dropdown item" href=""> </a>Purchase of Points</li><br>
+                    </ul>
+                    <!-- <li><a href="">General Information</a></li><br> -->
+                    <!-- <li><a href="">Important Information </a></li><br>
+                <li><a href="">Enquiries</a></li><br>
+                <li><a href="">Agents</a></li><br> -->
+                </ul>
+                <ul class="box">
+                    <a class="btn btn-secondary dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="background-color: #140B5C; border-color: #140B5C;">
+                        How To
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #140B5C;">
+                        <li><a class="dropdown item" href="">Register </a></li><br>
+                        <li><a class="dropdown item" href=""> Book E-ticket (PDF) (VIDEO)</a></li><br>
+                        <li><a class="dropdown item" href=""> Book tatkal ticket</a></li><br>
+                        <li><a class="dropdown item" href=""> Book Concession Tickets for Person</a></li><br>
+                        <li><a class="dropdown item" href=""> With Disability</a></li><br>
+                        <li><a class="dropdown item" href="">Cancel E-ticket </a></li><br>
+                        <li><a class="dropdown item" href="">International/NRI User Registration </a></li><br>
+                        <li><a class="dropdown item" href=""> Guide</a></li><br>
+                        <li><a class="dropdown item" href="">Change Boarding Point </a></li><br>
+                        <li><a class="dropdown item" href="">Link Your Aadhaar </a></li><br>
+                        <li><a class="dropdown item" href=""> File TDR</a></li><br>
+
+                    </ul><br>
+                    <a class="btn btn-secondary dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="background-color: #140B5C; border-color: #140B5C;">
+                        Refund Rules
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #140B5C;">
+                        <li><a class="dropdown item" href="">Ticket Cancellation & Refund Rules </a></li><br>
+                        <li><a class="dropdown item" href=""> Gazette: Cancellation of Ticket and</a></li><br>
+                        <li><a class="dropdown item" href=""> Refund Rules 2015</a></li><br>
+                        <li><a class="dropdown item" href=""> Refund Rule of Suvidha Train</a></li><br>
+                        <li><a class="dropdown item" href=""> Refund Rule COVID19 - RB</a></li><br>
+                        <li><a class="dropdown item" href=""> 13.05.2020</a></li><br>
+
+                    </ul><br>
+                    <a class="btn btn-secondary dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="background-color: #140B5C; border-color: #140B5C;">
+                        IRCTC Official App
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #140B5C;">
+                        <li><a class="dropdown item" href="">IRCTC Rail Connect (Android) </a></li><br>
+                        <li><a class="dropdown item" href="">IRCTC Rail Connect (iOS)</a></li><br>
+                        <li><a class="dropdown item" href="">IRCTC Order Food (Android) </a></li><br>
+                        <li><a class="dropdown item" href=""> IRCTC Order Food (IOS)</a></li><br>
+                        <li><a class="dropdown item" href="">IRCTC Tourism App </a></li><br>
+                        <li><a class="dropdown item" href=""> IRCTC Air App (Android)</a></li><br>
+                        <li><a class="dropdown item" href=""> IRCTC Air App (IOS)</a></li><br>
+                        <li><a class="dropdown item" href=""> IRCTC iMudra (Android)</a></li><br>
+
+                    </ul><br>
+                    <a class="btn btn-secondary dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="background-color: #140B5C; border-color: #140B5C;">
+                        IRCTS-iPAY Payment Gateway
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #140B5C;">
+                        <li><a class="dropdown item" href="">IRCTC-iPAY (PDF) (VIDEO) </a></li><br>
+                        <li><a class="dropdown item" href=""> AutoPay</a></li><br>
+
+                    </ul><br>
+                    <a class="btn btn-secondary dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="background-color: #140B5C; border-color: #140B5C;">
+                        Policies
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #140B5C;">
+                        <li><a class="dropdown item" href="">Agents & Principal Service Providers Policies for Reserved
+                                e-Ticketing </a></li><br>
+                        <li><a class="dropdown item" href=""> Payment Integration Policies for Reserved e-Ticketing
+                            </a></li><br>
+                        <li><a class="dropdown item" href="">EMI Integration on Website/ Mobile App </a></li><br>
+                        <li><a class="dropdown item" href="">Payment Gateway/ Card Acquiring Integration on Website/
+                                Mobile App </a></li><br>
+
+                    </ul><br>
+
+                    <!-- <li class="link_name"><a href="">How To</a></li><br>
+                <li><a href="">IRCTC Official App</a></li><br>
+                <li><a href="">IRCTS-iPAY Payment Gateway</a></li><br>
+                <li><a href="">Refund Rules</a></li><br> -->
+
+                </ul>
+                <ul class="box">
+
+                    <a class="btn btn-secondary dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="background-color: #140B5C; border-color: #140B5C;">
+                        Mobile Zone
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #140B5C;">
+                        <li><a class="dropdown item" href="">IRCTC Android App - IRCTC Rail Connect </a></li><br>br
+                        <li><a class="dropdown item" href=""> ClearTrip</a></li><br>
+                        <li><a class="dropdown item" href="">Airtel </a></li><br>
+                        <li><a class="dropdown item" href=""> Amazon India - Shop & Pay</a></li><br>
+                        <li><a class="dropdown item" href=""> EaseMyTrip Flight, Hotel, Train</a></li><br>
+                        <li><a class="dropdown item" href=""> Google Pay</a></li><br>
+                        <li><a class="dropdown item" href=""> Goibibo</a></li><br>
+
+                    </ul><br>
+                    <a class="btn btn-secondary dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="background-color: #140B5C; border-color: #140B5C;">
+                        Enquirie
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #140B5C;">
+                        <li><a class="dropdown item" href="">Reservation Enquiries</a></li><br>
+                        <li><a class="dropdown item" href=""> PNR Enquiry</a></li><br>
+                        <li><a class="dropdown item" href="">Train/Fare Accommodation </a></li><br>
+                        <li><a class="dropdown item" href=""> Train Between Important Stations</a></li><br>
+
+
+                        <li><a class="dropdown item" href=""> </a></li><br>
+                    </ul><br>
+                    <a class="btn btn-secondary dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="background-color: #140B5C; border-color: #140B5C;">
+                        Advertise with us
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #140B5C;">
+                        <li><a class="dropdown item" href="">IRCTC Marketing Statistics </a></li><br>
+                        <li><a class="dropdown item" href=""> Banner Locations on IRCTC</a></li><br>
+                        <li><a class="dropdown item" href=""> Push Notification</a></li><br>
+                        <li><a class="dropdown item" href="">Chat Bot : As a IRCTC Service </a></li><br>
+                        <li><a class="dropdown item" href="">e-Ticket(ERS) Advertisement </a></li><br>
+                        <li><a class="dropdown item" href="">Logout Advertisement </a></li><br>
+                        <li><a class="dropdown item" href=""> Booking Mail Advertisement</a></li><br>
+                        <li><a class="dropdown item" href="">Cancellation Mail Advertisement </a></li><br>
+                        <li><a class="dropdown item" href=""> Captcha Advertisement</a></li><br>
+
+
+                    </ul><br>
+                    <a class="btn btn-secondary dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="background-color: #140B5C; border-color: #140B5C;">
+                        Agents
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #140B5C;">
+                        <li><a class="dropdown item" href="">IRCTC Authorized Service Providers </a></li><br>
+                        <li><a class="dropdown item" href=""> Digital Certificate Generation Process</a></li><br>
+                        <li><a class="dropdown item" href=""> Rules and Regulations for the Agents</a></li><br>
+                        <li><a class="dropdown item" href="">Norms for RTSA </a></li><br>
+                        <li><a class="dropdown item" href="">Norms for IATA </a></li><br>
+                        <li><a class="dropdown item" href="">Norms for Internet Cafe Scheme </a></li><br>
+                        <li><a class="dropdown item" href="">Norms for B2C & Mobile Scheme </a></li><br>
+                        <li><a class="dropdown item" href=""> Requisition Slip</a></li><br>
+                        <li><a class="dropdown item" href=""> Norms for B2C & Mobile Scheme</a></li><br>
+                    </ul><br>
+                    <a class="btn btn-secondary dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="background-color: #140B5C; border-color: #140B5C;">
+                        IRCTC Wallet
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #140B5C;">
+                        <li><a class="dropdown item" href="">About</a></li><br>
+
+
+                    </ul><br>
+
+                    <!-- <li class="link_name"><a href="">IRCTC Wallet</a></li><br>
+                <li><a href="">IRCTC Loyalty Programe</a></li>
+                <li><a href=""> Advertise with us</a></li>
+                <li><a href="">For Newly Migrated Agents</a></li>
+                <li><a href="">Mobile Zone</a></li> -->
+
+            </div>
+    </div>
+    <br>
+    <div class="footerBottom" ; style="background-color: rgb(240, 243, 245);">
+        <p>Copyright &copy;2024 - www.irctc.co.in. All Rights Reserved Designed and Hosted by <span
+                class="designer">CRIS Compatible Browsers</span></p>
+    </div>
+
+    </footer>
+    </div>
+    <script src="header.js"></script>
+    <script>
+
+        function clock() {
+
+            var monthNames = ["January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"];
+            // var dayNames= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+
+            var today = new Date();
+
+            document.getElementById('Date').innerHTML = (
+                today.getDate() + ' ' + monthNames[today.getMonth()] + ' ' + today.getFullYear());
+
+
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+            var day = h < 11 ? 'AM' : 'PM';
+
+            h = h < 10 ? '0' + h : h;
+            m = m < 10 ? '0' + m : m;
+            s = s < 10 ? '0' + s : s;
+
+            document.getElementById('hours').innerHTML = h;
+            document.getElementById('min').innerHTML = m;
+            document.getElementById('sec').innerHTML = s;
+
+        } var inter = setInterval(clock, 400);
+
+        
+
+    </script>
+ <script src="https://kit.fontawesome.com/b7e064c4e7.js" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+     crossorigin="anonymous"></script>
+     
+</body>
+
+</html>

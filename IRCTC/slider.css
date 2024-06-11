@@ -1,0 +1,68 @@
+.pic{
+    background-image: url("https://www.hindustantimes.com/ht-img/img/2023/07/02/1600x900/ANI-20230627088-0_1688262406263_1688262424238.jpg");
+    background-color: red;
+    height: 600px;
+}
+.booking-form{
+    margin-left: 100px;
+}
+
+
+.header{
+    background-attachment: fixed;
+    position: fixed;
+    top:0;
+    width:100%;
+    background-color: white;
+    z-index: 999;
+}
+/* ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+/* ul li:hover ul.dropdown{ */
+    /* display:block;
+} */
+.highblue{
+    color: white;
+    background-color: darkblue; 
+    padding: 5px 10px; 
+    text-decoration: none;
+}
+
+.highgrey{
+    color: black;
+    background-color: lightgray;
+    padding: 5px 10px; 
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    /* font-weight: bold; */
+}
+ul li{
+    margin: 4px;
+    font-size: 13px;
+    display: inline-block;
+}
+#opt{
+    font-size: 12px;
+}
+.nav-link{
+    text-decoration: none;
+
+}
+.clock{
+    color:black;
+    padding: 5px 10px;}
+.clock ul{
+     list-style: none;
+                display: flex;
+                font-size: 15px;
+                gap:2px;
+}

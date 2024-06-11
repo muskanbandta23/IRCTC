@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+    <script src="https://kit.fontawesome.com/1dc7c4c990.js" crossorigin="anonymous"></script>
+
+    <style>
+        .body {
+            background-image: url('107.webp.jpg');
+            margin-top: -50px;
+            width: 100%;
+            height: 400px;
+            background-size: cover;
+        }
+
+        .formvac {
+            background-color: white;
+            width: 30%;
+            position: relative;
+            top: 80px;
+            margin-left: 10%;
+            text-align: center;
+            padding-left: 10px;
+            border-color: black;
+            border-width: 2px;
+            border-radius:5%;
+        }
+
+        h6 {
+            padding-top: 10px;
+            text-align: center;
+            font-size: larger;
+            color: blue;
+
+        }
+
+        .input1 {
+            width: 180px;
+        }
+
+        .input2 {
+            margin-top: 20px;
+            width: 200px;
+            margin-bottom: 20px;
+        }
+
+        #date1 {
+            margin-bottom: -1px;
+            font-size: 10px;
+            text-align: left;
+            margin-left: 40px;
+            color: gray;
+        }
+
+        .button {
+            margin-bottom: 20px;
+            background-color: blue;
+            color: white;
+        }
+
+        .footer {
+            text-align: center;
+            color: blue;
+            bottom:0%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="header">
+           <table align="center">
+            <tr>
+                <td style="vertical-align: left; padding-right: 360px;"><img src="https://upload.wikimedia.org/wikipedia/hi/7/7b/Indian_Railways_logo.png" width="100px"></td>
+                <td style=" font-size: xx-large; color:darkblue">RESERVATION CHART</td>
+                <td style="vertical-align: right; padding-left: 260px;"> <img src="https://logos-world.net/wp-content/uploads/2020/11/IRCTC-Logo.png" width="200px"></td>
+            </tr>
+           </table>
+        </div>
+        <div class="body">
+            <div class="formvac">
+                <h6>Journey Details</h6>
+                <form>
+                    <label>
+                        <i class="fa-solid fa-train-subway"></i>
+                        <input class="input1" type="text" placeholder="Train Number">
+                    </label>
+
+                    <label>
+                        <p id="date1">Journery Date*</p>
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <input class="input1" type="date" id="date" name="date" placeholder="date">
+
+                    </label>
+
+
+                    <label>
+                        <input class="input2" type="text" placeholder="Boarding Station*">
+                    </label>
+
+                    <button class="button">Get Train Chart</button>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <p class="footer">Copyright © 2024 -<a href="www.irctc.co.in" >www.irctc.co.in</a> All Rights Reserved
+
+            Designed and Hosted by CRIS</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    height: 50px;
+    background-color: rgb(26, 115, 171);
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#navbar{
+    color: white;
+}
+h2{
+    color: black;
+    margin-top: 20px;
+}
+.heading{
+        
+        display: flex;
+        justify-content: space-between;
+}
+#img1{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#img2{
+    margin-top: 10px;
+    margin-right:10px ;
+}
+.heading1{
+    color: black;
+    display: flex;
+}
+#one{
+    height: 30px;
+    width: 200px;
+    border:1px solid black;
+    background-color: rgb(227, 229, 214);
+    margin: 10px;
+    border-radius: 6px;
+    padding-left: 6px;
+    
+   }
+   #two{
+    height: 30px;
+    width: 200px;
+    border:1px solid black;
+    background-color:rgb(227, 229, 214);
+    margin: 10px;
+    border-radius: 6px;
+    padding-left: 6px;
+   
+   }
+   #three{
+    background-color:rgb(26, 115, 171);
+    color: white;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 3px;
+   }
+   #four{
+    text-align: center;
+    font-weight: 900;
+    padding-left: 130px;
+    font-size: larger;
+   }
+button{
+    background-color:rgb(26, 115, 171); ;
+}
+#five{
+    margin-left: 40%;
+    margin-top: 900px;
+    font-weight: 900;
+}
+.six{
+   margin-left: 900px;
+   margin-top: -20px;
+}
+#seven{
+    margin-top: 10px;
+    display:flex ;
+}
+#eight{
+    padding-right: 20px;
+}

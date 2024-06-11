@@ -1,0 +1,401 @@
+body{
+
+    padding-top: 150px;
+    opacity:0;
+    transition:opacity 1.5s ease;
+
+}
+.loaded{
+    opacity:1;
+}
+
+/* .pic{
+    
+    background-image: url("https://www.hindustantimes.com/ht-img/img/2023/07/02/1600x900/ANI-20230627088-0_1688262406263_1688262424238.jpg");
+    background-color: white;
+    height: 600px;
+} */
+.pic video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 680px;
+    object-fit: cover;
+}
+.booking-form{
+    margin-left: 100px;
+    z-index: 1;
+    position: relative;
+}
+
+
+.header{
+    background-attachment: fixed;
+    position: fixed;
+    top:0;
+    width:100%;
+    background-color: white;
+    z-index: 999;
+}
+/* ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+/* ul li:hover ul.dropdown{ */
+    /* display:block;
+} */
+.highblue{
+    color: white;
+    background-color: darkblue; 
+    padding: 5px 10px; 
+    text-decoration: none;
+}
+
+.highgrey{
+    color: black;
+    background-color: lightgray;
+    padding: 5px 10px; 
+    text-decoration: none;
+}
+#dropdownMenuLink{
+    font-size: 13px;
+    padding: 5px 0px; 
+}
+
+ul{
+    list-style-type: none;
+    /* font-weight: bold; */
+}
+ul li{
+    margin: 2px;
+    font-size: 13px;
+    display: inline-block;
+    
+}
+#opt{
+    font-size: 12px;
+}
+.nav-link{
+    text-decoration: none;
+
+}
+.clock{
+    color:black;
+    padding: 5px 10px;}
+.clock ul{
+     list-style: none;
+                display: flex;
+                font-size: 15px;
+                gap:2px;
+}
+.cross{
+    z-index: 100;
+    position:absolute;
+     margin-top: -20px;
+    margin-left: 880px; 
+    color: white;
+    background-color: rgb(214, 16, 16);
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 48%;
+}
+#ticket{
+    z-index: -1;
+    width: 900px;
+    min-height: 10%;
+    background-color: rgb(233, 238, 240);
+    position:absolute;
+    margin-top: -460px;
+    margin-left: 200px;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    border:solid 1px black;
+}
+#ticket table{
+    width: 95%;
+    border-collapse: collapse;
+    margin: 20px;
+    line-height: 30px;
+
+}
+#ticket table #h{
+    background-color: darkblue;
+    color: white;
+}
+#ticket td, #ticket th {
+    text-align: center; /* Horizontally center the content */
+    vertical-align: middle; /* Vertically center the content */
+    padding: 10px; /* Add padding for better spacing */
+}
+
+/* Centering the button and styling it */
+.btncol {
+    display: block; /* Make the button a block element to use margin auto */
+    margin: 20px auto; /* Center the button horizontally */
+    padding: 10px 20px; /* Add some padding for a better look */
+    font-size: 16px; /* Increase the font size */
+    color: #fff; /* Set the text color to white */
+    background-color: #007bff; /* Set the background color */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change the cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.btncol:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.booking-form {
+                width: 40%;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                padding: 0px;
+                z-index:1;
+                background-color: #fff;
+            
+              }
+.Main-Buttons {
+                display: flex;
+                justify-content: space-between;
+              }
+.Main-Buttons button {
+                padding: 5px;
+                width: 49.5%;
+                background-color: #213d77;
+                color: #fff;
+                border: none;
+              }
+.Main-Buttons button i {
+                float: left;
+                margin-left: 10px;
+              }
+.booking-form .heading {
+                display: flex;
+                justify-content: space-between;
+              }
+.booking-form .form-fields {
+                padding: 10px 20px;
+                display: grid;
+                grid-template-columns: 1.5fr 1fr;
+                gap: 25px;
+              }
+.booking-form .form-fields .form-feild {
+                display: flex;
+                align-items: center;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                height: 20px;
+                padding: 15px;
+                margin-bottom: 10px;
+              }
+.booking-form .form-fields .form-feild i {
+                margin-right: 10px;
+              }
+input ,select{
+                border: none;
+                outline: none;
+              }
+.concessions {
+                padding: 10px 20px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+              }
+.concession-types {
+                color: #003366;
+              }
+.form-buttons {
+                padding: 10px 20px;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 5px;
+              }
+.btncol:hover{
+    color:navy;
+    background-color: white;
+    transform: scale(1.1);
+}
+.form-buttons button {
+                padding: 10px 20px;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+              }
+
+              .container2{
+                position:relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /* overflow-x: hidden;
+                overflow-y: auto; */
+                z-index:0;
+                
+            }
+            .card{
+                width: 250px;
+                height: 380px;
+                border-radius: 15px;
+                overflow: hidden;
+                border: 5px solid #fff;
+                position: relative;
+                margin:20px;
+            }
+            .cardimg{
+               width:250px;
+               height: 380px;
+               object-fit: cover;
+               border-radius: 8px;
+            }
+            .cardbody{
+                width: 100%;
+                height:100% ;
+                top:0;
+                right:-100%;
+                position: absolute;
+                /* background: #dd5d5d3e; */
+                backdrop-filter: blur(5px);
+                border-radius: 12px;
+                color: white;
+                padding:20px;
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                transition: 1.5s;
+            }
+            .card:hover .cardbody{
+                right:0;
+            }
+            .cardtitle{
+                text-transform: uppercase;
+                font-size: 30px;
+                font-weight: 500;
+            }
+            .cardinfo{
+                font-size: 13px;
+                line-height: 15px;
+                margin: 6px;
+                font-weight: 200;
+            }
+            .cardbtn{
+                color:bisque;
+                background: black;
+                width: 120px;
+                padding:8px 16px;
+                border-radius: 5px;
+                text-transform:capitalize ;
+                border: none;
+                outline:none;
+                font-weight:300 ;
+                cursor: pointer;
+            }
+              *{
+                margin:0%;
+                padding: 0%;
+                box-sizing: border-box;
+                font-family: "Poppins" , sans-serif;
+            }
+
+            .icons:hover{
+                transform: scale(1.1);
+            }
+
+            /* body{
+                min-height: 10vh;
+                width: 10px;
+                background:#EEECEB ; */
+            
+            footer{
+                position: local;
+                background: #140B5C;
+                width: 100%;
+                bottom: 0%;
+                left: 0%;
+                /* margin-top: 400px; */
+                overflow-y: auto;
+                overflow-x: hidden;
+            
+            }
+            
+            footer .content{
+                background: lightblue;
+                max-width: 1100px;
+                margin: 60px;
+                padding: 40px 40px 40px 40px;
+                /* overflow: scroll; */
+            }
+            
+            footer .content .top{
+                /* display: flex; */
+                align-items: center;
+                text-align: center;
+                justify-content: space-between;
+            
+            }
+            .content .media-icons{
+                /* display: flex; */
+                align-items: center;
+                text-align: center;
+                font-size: 28px;
+               
+                /* text-decoration: ; */
+                size: 50%;
+                /* justify-content: space-between; */
+            
+            }
+            .logo_name{
+                font-size: larger;
+            }
+            .link-boxes{
+                width: 200%;
+                display: flex;
+                justify-items:flex-start;
+                /* justify-content: space-between; */
+            }
+            .box{
+                width: calc(100% /5 - 10px);
+                
+            }
+            .link-boxes .box li{
+                list-style: none;
+                color: aliceblue;
+            }
+            .footerBottom{
+                text-align: center;
+                font-size: medium;
+            }
+            .link-boxes .box li a{
+                color: #fff;
+                font-size: 14px;
+                font-weight: 400;
+                text-decoration:none ;
+                opacity: 0.8;
+                transition: all 0.4s ease;
+            }
+            .link-boxes .box li a:hover{
+                opacity: 1;
+                text-decoration:none ;
+                text-decoration: underline;
+            
+            }
+            .link-boxes .box .btn btn-secondary dropdown-toggle{
+                background-color: #140B5C;
+                border-color: #140B5C;
+            }
+            .link-boxes .box .dropdown-menu.dropdown item{  
+                background-color: #140B5C;
+            
+            }
+            .box.dropdown-menu.dropdownitem{
+                background-color: #140B5C;
+            
+            }
